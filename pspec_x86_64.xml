@@ -1,0 +1,39 @@
+<PISI>
+    <Source>
+        <Name>python-backports_abc</Name>
+        <Packager>
+            <Name>Ewan Paterson</Name>
+            <Email>ewan.paterson@hotmail.co.uk</Email>
+        </Packager>
+        <License>Python-2.0</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">Backport of recent additions to the &quot;collections.abc&quot; stdlib module (Py3.5).</Summary>
+        <Description xml:lang="en">Backport of recent additions to the &quot;collections.abc&quot; stdlib module (Py3.5).
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-backports_abc</Name>
+        <Summary xml:lang="en">Backport of recent additions to the &quot;collections.abc&quot; stdlib module (Py3.5).</Summary>
+        <Description xml:lang="en">Backport of recent additions to the &quot;collections.abc&quot; stdlib module (Py3.5).
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/backports_abc-0.5-py2.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/backports_abc-0.5-py2.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/backports_abc-0.5-py2.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/backports_abc-0.5-py2.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/backports_abc.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/backports_abc.pyc</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-08-31</Date>
+            <Version>0.5</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Ewan Paterson</Name>
+            <Email>ewan.paterson@hotmail.co.uk</Email>
+        </Update>
+    </History>
+</PISI>

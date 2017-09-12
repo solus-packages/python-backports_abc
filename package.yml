@@ -1,0 +1,16 @@
+name       : python-backports_abc
+version    : '0.5'
+release    : 1
+source     :
+    - https://github.com/cython/backports_abc/archive/0.5.tar.gz : ca1872b55cc9e19ce7288670d360104d5aac88ff1d0a0e7ad6e97267705611f9
+license    : Python-2.0
+component  : programming.python
+summary    : Backport of recent additions to the "collections.abc" stdlib module (Py3.5).
+description: |
+    Backport of recent additions to the "collections.abc" stdlib module (Py3.5).
+builddeps  :
+    - python-setuptools
+setup      : |
+    %python_setup
+install    : |
+    %python_install
